@@ -2,6 +2,8 @@ import css from "./Contact.module.css";
 import { IoPerson } from "react-icons/io5";
 import { FaPhone } from "react-icons/fa6";
 
+// ================================contact==================================//
+
 const Contact = ({ data: { name, number, id }, onDelete }) => {
   return (
     <div className={css.container}>
