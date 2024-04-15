@@ -6,7 +6,6 @@ import ContactForm from "../ContactForm/ContactForm";
 import SearchBox from "../SearchBox/SearchBox";
 import ContactList from "../ContactList/ContactList";
 
-// =====================APP====================================
 function App() {
   const [contacts, setContact] = useState(() => {
     const localValue = localStorage.getItem("saved-clicks");
@@ -47,6 +46,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;
